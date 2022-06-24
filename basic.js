@@ -3,7 +3,7 @@ var song
 var fft // need this to get the waveform data (fast fourier transformation)
 
 function preload() {
-    song = loadSound("NextToMe_Mqx.mp3")
+    song = loadSound("../AudioFiles/NextToMe_Mqx.mp3")
 }
 
 function setup() {
