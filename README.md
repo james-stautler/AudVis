@@ -13,3 +13,4 @@ To change the script, update the src in Index.html with the proper .js script. <
 To change the song, update the .js file in the preload() function. Specify pathway through Audio Files folder<br />
 
 The default script is basic.js and the song is Next to Me by Mqx (hardstyle, watch ears) <br />
+None of the music is mine, all credit goes to owners <br />
