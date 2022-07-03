@@ -82,8 +82,8 @@ class Particle {
         this.pos.add(this.vel)
         if (cond) {
             this.pos.add(this.vel)
-            this.pos.add(this.val)
-            this.pos.add(this.val)
+            this.pos.add(this.vel)
+            this.pos.add(this.vel)
         }
     }
 
