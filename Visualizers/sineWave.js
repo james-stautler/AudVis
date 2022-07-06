@@ -126,18 +126,3 @@ class Particle {
 
 }
 
-class BoomParticle {
-
-    constructor() {
-        this.pos = p5.Vector.random2D().mult(250)
-        this.vel = createVector(0,0)
-        this.acc = this.pos.copy().mult(random(0.0001, 0.00001))
-
-        this.w = 3
-
-        this.color = "#FFFF00"
-    }
-
-    update(cond) {
-    }
-}
