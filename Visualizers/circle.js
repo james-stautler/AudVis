@@ -4,7 +4,7 @@ var fft
 var particles = []
 
 function preload() {
-    song = loadSound("../AudioFiles/NextToMe_Mqx.mp3")
+    song = loadSound("../AudioFiles/whipped-cream.mp3")
 }
 
 function setup() {
@@ -17,7 +17,7 @@ function setup() {
 function draw() {
     background('#301934')
     stroke('#FFFF00')
-    strokeWeight(3)
+    strokeWeight(5)
     noFill()
 
     translate(width / 2, height / 2)

@@ -4,7 +4,7 @@ var fft
 var colorParticles = []
 
 function preload() {
-    song = loadSound("../AudioFiles/NextToMe_Mqx.mp3")
+    song = loadSound("../AudioFiles/whipped-cream.mp3")
 
 }
 
