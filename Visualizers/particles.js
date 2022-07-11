@@ -39,9 +39,9 @@ function draw() {
 
         for(var i = 0; i < 10; i++) {
 
-            var r = map(sin(frameCount), -1, 1, 0, 255) + random(-50,50)
-            var g = map(sin(frameCount / 2), -1, 1, 255, 0) + random(-50, 50)
-            var b = map(cos(frameCount / 4), -1, 1, 0, 255) + random(-50, 50)
+            var r = map(sin(frameCount), -1, 1, 0, 255) + random(100, 120)
+            var g = map(sin(frameCount / 2), -1, 1, 255, 0) + random(100, 120)
+            var b = map(cos(frameCount / 4), -1, 1, 0, 255) + random(100, 120)
 
             var c = color(r, g, b)
 
