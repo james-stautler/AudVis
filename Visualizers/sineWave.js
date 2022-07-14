@@ -5,7 +5,6 @@ var colorParticles = []
 
 function preload() {
     song = loadSound("../AudioFiles/whipped-cream.mp3")
-
 }
 
 function setup() {
@@ -13,8 +12,6 @@ function setup() {
     angleMode(DEGREES)
     fft = new p5.FFT()
     amplitude = new p5.Amplitude()
-
-
 }
 
 function draw() {
